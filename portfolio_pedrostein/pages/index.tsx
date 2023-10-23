@@ -1,5 +1,6 @@
 import LeftSideBar from "@/components/LeftSideBar";
 import Navbar from "@/components/Navbar";
+import RightSideBar from "@/components/RightSideBar";
 import Head from "next/head";
 
 export default function Home() {
@@ -17,8 +18,10 @@ export default function Home() {
           <div className="hidden xl:inline-flex w-32 fixed left-5 bottom-15">
             <LeftSideBar />
           </div>
-          <div></div>
-          <div></div>
+          <div>Middle</div>
+          <div className="hidden xl:inline-flex w-32 h-30 fixed right-0">
+            <RightSideBar />
+          </div>
         </div>
       </main>
     </>
