@@ -25,7 +25,7 @@ export default function Home() {
           >
             <LeftSideBar />
           </motion.div>
-          <div className="h-[88vh] mx-auto p-4">
+          <div className="h-[88vh] w-full mx-auto p-4">
             <Banner />
           </div>
           <motion.div 
