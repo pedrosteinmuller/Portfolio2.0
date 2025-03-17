@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 
-export default function About() {
+export default function Experience() {
   return (
     <Layout>
       <Head>

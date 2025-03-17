@@ -81,12 +81,25 @@ const Navbar = () => {
                 Contato
               </motion.li>
             </Link>
+            <Link
+              href="/other"
+              className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
+            >
+              <motion.li
+                initial={{ y: -10, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.1, delay: 0.5 }}
+              >
+                <span className='text-textGreen'>05.</span>
+                Conhecimentos Adicionais
+              </motion.li>
+            </Link>
           </ul>
           <a href='/assets/Pedro Steinmuller Pimentel - CV.pdf' target='_blank'>
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
+              transition={{ delay: 0.6 }}
               className='px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300'
             >
               Currículo
