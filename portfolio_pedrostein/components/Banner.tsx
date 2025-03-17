@@ -21,14 +21,14 @@ const Banner = () => {
       transition={{ duration: 0.5, delay: 0.7}}
       className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
-        Pedro Steinmüller Pimentel. <span className="text-textDark mt-2 lgl:mt-4">Apaixonado por tecnologia e ciência.</span>
+        Pedro Steinmüller Pimentel <span className="text-textDark mt-2 lgl:mt-4">Apaixonado por análise de dados</span>
       </motion.h1>
       <motion.p
       initial={{ y:10, opacity: 0 }}
       animate={{ y:0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.8}}
       >
-        Sou Desenvolvedor Web Full Stack, Graduado e Mestre em Física. Possuo experiência na área da programação com projetos em React, Typescript, Javascript, Node.js, Python, MongoDB, MySQL, entre outros. Gosto de sempre estar aprendendo coisas novas e me desafiando a resolver problemas.
+        Analista de Dados, Pesquisador Científico e Mestre em Física com experiência em resolução de problemas complexos e análise de Big Data em cenários empresariais e científicos. Gosto de sempre estar aprendendo coisas novas e me desafiando a resolver problemas.
       </motion.p>
       <motion.button
       className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"

@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className='hidden mdl:inline-flex items-center gap-7'>
           <ul className='flex text-[15px] gap-8'>
             <Link
-              href="#home"
+              href="/"
               className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
             >
               <motion.li
@@ -30,7 +30,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
             <Link
-              href="#about"
+              href="/about"
               className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
             >
               <motion.li
@@ -43,7 +43,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
             <Link
-              href="#project"
+              href="/project"
               className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
             >
               <motion.li
@@ -56,7 +56,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
             <Link
-              href="#experience"
+              href="/experience"
               className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
             >
               <motion.li
@@ -69,7 +69,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
             <Link
-              href="#contact"
+              href="/contact"
               className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link'
             >
               <motion.li
@@ -82,7 +82,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href='/assets/pedro_curriculo.pdf' target='_blank'>
+          <a href='/assets/Pedro Steinmuller Pimentel - CV.pdf' target='_blank'>
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
