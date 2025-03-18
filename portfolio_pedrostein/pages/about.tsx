@@ -54,10 +54,7 @@ export default function About() {
           Além disso, possuo conhecimentos adicionais em minha formação de
           Desenvolvimento Web Fullstack, adquiridos durante minha formação na
           Trybe, o que me proporcionou uma visão mais ampla sobre tecnologia e
-          integração de dados. Já desenvolvi projetos de front-end, back-end e
-          testes, utilizando tecnologias como HTML, CSS, JavaScript, React,
-          Redux, TypeScript, Node.js, Docker, API Rest, Jest, RTL, Mocha, Chai e
-          TDD.
+          integração de dados.
         </p>
         <p className="mt-4 text-lg text-600 max-w-2xl text-center">
           Minha expertise inclui análise exploratória de dados, criação de
