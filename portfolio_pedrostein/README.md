@@ -1,38 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📌 Meu Portfólio
 
-## Getting Started
+Este é o repositório do meu portfólio profissional, desenvolvido utilizando **Next.js** com **TypeScript** e estilização com **Tailwind**, seguindo boas práticas de desenvolvimento, tipagem adequada e organização modular de componentes.
 
-First, run the development server:
+## 🔗 Acesse o Portfólio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+Você pode visualizar o portfólio publicado na Vercel clicando no link abaixo:
+
+🔗 [Meu Portfólio - Deploy na Vercel](https://seu-portfolio.vercel.app)
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- **Next.js** – Framework React para aplicações modernas.
+- **TypeScript** – Superset do JavaScript que adiciona tipagem estática, melhorando segurança e manutenção do código.
+- **Tailwind CSS** – Framework de estilização para criar uma UI responsiva e moderna.
+- **Framer Motion** – Biblioteca para animações fluidas e interativas.
+- **React Icons** – Ícones personalizáveis para enriquecer a interface.
+- **Formspree** – Serviço para captura e envio de mensagens via formulário de contato.
+
+---
+
+## 🎨 Estrutura do Projeto
+
+O portfólio é dividido nas seguintes seções:
+
+- **Página Inicial** – Introdução rápida sobre mim e meus principais projetos.
+- **Sobre Mim** – Seção com um resumo da minha trajetória profissional e habilidades.
+- **Projetos** – Lista dos meus projetos com descrições e links para os repositórios no GitHub.
+- **Experiências e Habilidades** – Desmonstro minhas experiências e habilidades na área de análise dados.
+- **Conhecimentos Adicionais** – Lista meus conhecimentos em Front End e Stacks adicionais adquiridos durante minha jornada na escola Trybe.
+- **Contato** – Página com meus links de contato e um formulário para envio de mensagens diretamente para o meu e-mail.
+
+O projeto segue uma estrutura organizada e modular:
+
+```
+📂 meu-portfolio
+│-- 📂 components   # Componentes reutilizáveis (arquivos .tsx)
+│-- 📂 pages        # Páginas principais do site
+│-- 📂 public       # Imagens e assets estáticos
+│-- 📂 styles       # Configuração de estilos globais
+│-- 📄 tailwind.config.js  # Configuração do Tailwind CSS
+│-- 📄 tsconfig.json  # Configuração do TypeScript
+│-- 📄 next.config.js  # Configuração do Next.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## ✉️ Formulário de Contato
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+O portfólio possui um formulário de contato funcional, que utiliza o **Formspree** para enviar mensagens diretamente para meu e-mail.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Como Funciona?
+- O usuário preenche nome, e-mail, assunto e mensagem.
+- A mensagem é enviada diretamente para minha caixa de entrada.
+- O usuário recebe um feedback visual após o envio.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Código de integração com Formspree:**
 
-## Learn More
+```tsx
+<form action="https://formspree.io/f/meoaobao" method="POST">
+  <input type="text" name="name" placeholder="Seu Nome" required />
+  <input type="email" name="email" placeholder="Seu Email" required />
+  <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+  <button type="submit">Enviar</button>
+</form>
+```
 
-To learn more about Next.js, take a look at the following resources:
+Quando um usuário preenche o formulário e clica em "Enviar", a mensagem será enviada diretamente para minha caixa de entrada cadastrada no Formspree.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📦 Como Rodar o Projeto Localmente
 
-## Deploy on Vercel
+Caso queira rodar o portfólio no seu ambiente local, siga os passos abaixo:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone este repositório:**
+   ```sh
+   git clone https://github.com/pedrosteinmuller/Portfolio2.0.git
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. **Acesse a pasta do projeto:**
+   ```sh
+   cd portfolio
+   ```
+
+3. **Instale as dependências:**
+   ```sh
+   npm install
+   ```
+
+4. **Inicie o servidor local:**
+   ```sh
+   npm run dev
+   ```
+
+5. Acesse `http://localhost:3000/` no seu navegador.
+
+---
+
+## 🌍 Deploy
+
+O projeto está hospedado na **Vercel** para facilitar o acesso e garantir alta performance. O deploy é feito automaticamente a partir do repositório do GitHub, garantindo que toda atualização no código seja refletida no site publicado.
+
+🔗 **[Visualizar Portfólio](https://seu-portfolio.vercel.app/)**
+
+---
+
+## 📌 Melhorias Futuras
+
+- Adicionar modo escuro (dark mode);
+- Melhorar acessibilidade (a11y);
+- Técnicas eficazes de design responsivo para adaptar o conteúdo em dispositivos móveis.
+
+## 📞 Contato
+
+Se quiser falar comigo, entre em contato pelos canais abaixo:
+
+- **LinkedIn:** [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/pedrosteinmuller)
+- **GitHub:** [github.com/seu-usuario](https://github.com/pedrosteinmuller)
+- **E-mail:** pedrosteinmuller10105@hotmail.com
+
+---
+
+Se gostou do projeto, ⭐ deixe um star no repositório! 😊
