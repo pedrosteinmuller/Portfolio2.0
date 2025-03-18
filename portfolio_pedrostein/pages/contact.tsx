@@ -99,7 +99,7 @@ export default function Contact() {
         </ul>
       </div>
       <main className="min-h-screen bg-bodyColor text-textLight flex flex-col items-center p-8">
-        <h1 className="text-4xl font-bold text-textDark mb-8 ">Envie a sua mensagem para que possamos conversar mais e você pode me conhecer melhor!</h1>
+        <h1 className="text-4xl font-bold text-textDark mb-8 ">Envie a sua mensagem!</h1>
 
         <div className="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mb-4">Envie sua Mensagem</h2>
