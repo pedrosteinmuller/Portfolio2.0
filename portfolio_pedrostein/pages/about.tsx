@@ -12,8 +12,8 @@ export default function About() {
           content="Saiba mais sobre mim e minha trajetória profissional."
         />
       </Head>
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden pt-14">
-        <h1 className="text-center text-4xl font-bold text-textDark">
+      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden">
+        <h1 className="text-center text-4xl font-bold text-textDark text-textLight">
           Sobre Mim
         </h1>
         <p className="mt-4 text-lg text-600 max-w-2xl text-center">

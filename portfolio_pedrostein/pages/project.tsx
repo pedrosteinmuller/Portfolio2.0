@@ -98,10 +98,9 @@ const Projects: React.FC = () => {
       <Head>
       <title>Projetos | Meu Portfólio</title>
       </Head>
-    <title>Projetos | Meu Portfólio</title>
-    <section className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden">
+    <section className="w-full h-screen font-bodyFont bg-bodyColor overflow-x-hidden">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-3xl font-bold mb-12 text-center text-grey-900">Projetos</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-textLight">Projetos</h2>
         
         {/* Project Tabs */}
         <div className="flex justify-center mb-12">

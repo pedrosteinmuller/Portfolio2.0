@@ -76,7 +76,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.5 }}
               >
-                <span className="text-textGreen">05.</span>
+                <span className="text-textGreen">04.</span>
                 Conhecimentos Adicionais
               </motion.li>
             </Link>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className="text-textGreen">04.</span>
+                <span className="text-textGreen">05.</span>
                 Contato
               </motion.li>
             </Link>
