@@ -52,7 +52,7 @@ export default function About() {
         </p>
         <p className="mt-4 text-lg text-600 max-w-2xl text-center">
           Além disso, possuo conhecimentos adicionais em minha formação de
-          Desenvolvimento Web Fullstack, adquiridos durante minha formação na
+          Desenvolvimento Web Full Stack, adquiridos durante minha formação na
           Trybe, o que me proporcionou uma visão mais ampla sobre tecnologia e
           integração de dados.
         </p>
