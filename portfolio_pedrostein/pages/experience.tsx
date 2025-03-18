@@ -32,7 +32,7 @@ const experiences = [
       "Trabalhei com análise de sinais de rádio do espaço e processamento de dados. Minha jornada como pesquisador científico foi marcada por desafios complexos e conquistas significativas no campo da cosmologia e gravitação. Durante meu mestrado e como pesquisador, participei da construção inicial do radiotelescópio Uirapuru, testes e comprovações de teorias físicas que ampliou meu entendimento sobre o universo e me proporcionou habilidades práticas em instrumentação científica e análise de dados. Utilizei Python, Pandas, NumPy, Matplotlib e Seaborn para análise de dados e visualização de informações.",
   },
   {
-    company: "Universidade Estadual de Campina Grande",
+    company: "Escolas Públicas e Privadas de Campina Grande",
     role: "Professor de Física",
     period: "Janeiro 2016 - Agosto 2018",
     description:

@@ -100,10 +100,10 @@ const Projects: React.FC = () => {
       </Head>
     <section className="w-full h-screen font-bodyFont bg-bodyColor overflow-x-hidden">
       <div className="container mx-auto max-w-6xl">
-        <h2 className="text-4xl font-bold mb-12 text-center text-textLight">Projetos</h2>
+        <h2 className="text-4xl font-bold mb-6 text-center text-textLight">Projetos</h2>
         
         {/* Project Tabs */}
-        <div className="flex justify-center mb-12">
+        <div className="flex justify-center mb-10">
           <div className="inline-flex rounded-md shadow-sm">
             <button 
               onClick={() => setActiveTab('python')}
@@ -126,6 +126,16 @@ const Projects: React.FC = () => {
               SQL
             </button>
             <button 
+              onClick={() => setActiveTab('excel')}
+              className={`px-6 py-3 text-sm font-medium ${
+                activeTab === 'excel' 
+                  ? 'bg-purple-900 text-white' 
+                  : 'bg-white text-purple-900 hover:bg-grey-100'
+              } border-t border-b border-purple-300 transition duration-300`}
+            >
+              Excel
+            </button>
+            <button 
               onClick={() => setActiveTab('powerbi')}
               className={`px-6 py-3 text-sm font-medium rounded-r-lg ${
                 activeTab === 'powerbi' 
@@ -134,16 +144,6 @@ const Projects: React.FC = () => {
               } border border-purple-300 transition duration-300`}
             >
               Power BI
-            </button>
-            <button 
-              onClick={() => setActiveTab('excel')}
-              className={`px-6 py-3 text-sm font-medium rounded-r-lg ${
-                activeTab === 'excel' 
-                  ? 'bg-purple-900 text-white' 
-                  : 'bg-white text-purple-900 hover:bg-grey-100'
-              } border border-purple-300 transition duration-300`}
-            >
-              Excel
             </button>
           </div>
         </div>
