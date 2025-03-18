@@ -53,8 +53,8 @@ export default function About() {
         <p className="mt-4 text-lg text-600 max-w-2xl text-center">
           Além disso, possuo conhecimentos adicionais em minha formação de
           Desenvolvimento Web Full Stack, adquiridos durante minha formação na
-          Trybe, o que me proporcionou uma visão mais ampla sobre tecnologia e
-          integração de dados.
+          Trybe, o que me proporcionou uma visão mais ampla sobre tecnologia,
+          programação e integração de dados.
         </p>
         <p className="mt-4 text-lg text-600 max-w-2xl text-center">
           Minha expertise inclui análise exploratória de dados, criação de
