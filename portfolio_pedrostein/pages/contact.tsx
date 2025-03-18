@@ -98,8 +98,8 @@ export default function Contact() {
           </li>
         </ul>
       </div>
-      <main className="min-h-screen bg-bodyColor text-textLight flex flex-col items-center p-8">
-        <h1 className="text-4xl font-bold text-textDark mb-8 ">Envie a sua mensagem!</h1>
+      <main className="min-h-screen bg-bodyColor text-textLight flex flex-col items-center p-4">
+        <h1 className="text-4xl font-bold text-textDark mb-8 ">Entre em contato comigo. Conheça mais em meu LinkedIn, GitHub e envie uma mensagem!</h1>
 
         <div className="w-full max-w-lg bg-gray-800 p-8 rounded-lg shadow-lg">
           <h2 className="text-2xl font-semibold mb-4">Envie sua Mensagem</h2>
