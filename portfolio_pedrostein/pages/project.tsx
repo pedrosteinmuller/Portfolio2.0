@@ -43,33 +43,39 @@ const Projects: React.FC = () => {
         icon: "📊"
       },
       {
-        title: "Ranking de Universidades (em andamento)",
+        title: "Ranking de Universidades.",
         description: "Análise de dados do ranking global das melhores universidades.",
-        link: "",
+        link: "https://github.com/pedrosteinmuller/UniversityRanking",
         icon: "🏛️"
       },
       {
-        title: "Análise de Músicas do Spotify (em andamento)",
+        title: "Análise de Músicas do Spotify.",
         description: "Análise de 114.000 músicas do Spotify para encontrar padrões e insights.",
-        link: "",
+        link: "https://github.com/pedrosteinmuller/SpotifySongs",
         icon: "🎵"
       }
     ],
     sql: [
       {
-        title: "Desafios SQL (em andamento)",
-        description: "Desafios resolvidos em SQL nos níveis Easy, Medium e Hard.",
-        link: "",
+        title: "Estudos e Práticas de SQL",
+        description: "Práticas de SQL, querys avançadas, aprimorando os conhecimentos teóricos e análise de métricas.",
+        link: "https://github.com/pedrosteinmuller/Analise_Metricas_Querys_SQL",
         icon: "📌"
       },
       {
-        title: "Pizzaria SQL (em andamento)",
+        title: "Pizzaria SQL",
         description: "Resolução de perguntas de negócio utilizando SQL.",
-        link: "",
+        link: "https://github.com/pedrosteinmuller/PizzariaSQL",
         icon: "🍕"
       }
     ],
     powerbi: [
+      {
+        title: "Dashboards Power BI - Curso DSA",
+        description: "Dashboard desenvolvido de diversas áreas de negócio para geração de insights relevantes, utilizando dados fictícios e uso de DAX.",
+        link: "https://github.com/pedrosteinmuller/PowerBI-Dashboards",
+        icon: "👥"
+      },
       {
         title: "Dashboard sobre Gestão de Projetos",
         description: "Visualização clara de KPIs envolvendo gestão de projetos para tomada de decisão e criação de DAX.",
@@ -77,13 +83,25 @@ const Projects: React.FC = () => {
         icon: "📈"
       },
       {
-        title: "Dashboards Power BI - Curso DSA",
-        description: "Dashboard desenvolvido de diversas áreas de negócio para geração de insights relevantes, utilizando dados fictícios e uso de DAX.",
-        link: "https://github.com/pedrosteinmuller/PowerBI-Dashboards",
-        icon: "👥"
+        title: "Dashboards Power BI - RH e KPIs",
+        description: "Dashboard em Power BI focado em KPIs (Key Performance Indicators) da área de Recursos Humanos.",
+        link: "https://github.com/pedrosteinmuller/Dashboard_PowerBi_RH_KPIs",
+        icon: "📈"
+      },
+      {
+        title: "Dashboards Power BI - Superstore",
+        description: "Dashboard em Power BI e DAX com foco em análise de vendas da Global Superstore.",
+        link: "https://github.com/pedrosteinmuller/Dashboard_PowerBi_Superstore",
+        icon: "📈"
+      },
+      {
+        title: "Dashboards Power BI - Financeiro",
+        description: "Dashboard em Power BI com foco em análise financeira.",
+        link: "https://github.com/pedrosteinmuller/Dashboard_PowerBi_Financeiro",
+        icon: "📈"
       }
     ],
-        excel: [
+      excel: [
       {
         title: "(em breve...)",
         description: "",
