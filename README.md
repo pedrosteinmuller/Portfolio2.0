@@ -2,11 +2,15 @@
 
 Este é o repositório do meu portfólio profissional, desenvolvido utilizando **Next.js** com **TypeScript** e estilização com **Tailwind**, seguindo boas práticas de desenvolvimento, tipagem adequada e organização modular de componentes.
 
+## 🌍 Deploy
+
+O projeto está hospedado na **Vercel** para facilitar o acesso e garantir alta performance. O deploy é feito automaticamente a partir do repositório do GitHub, garantindo que toda atualização no código seja refletida no site publicado.
+
 ## 🔗 Acesse o Portfólio
 
 Você pode visualizar o portfólio publicado na Vercel clicando no link abaixo:
 
-🔗 [Meu Portfólio - Deploy na Vercel](https://seu-portfolio.vercel.app)
+🔗 [Meu Portfólio - Deploy na Vercel](https://portfolio-pedro-steinmuller-pimentel.vercel.app/)
 
 ---
 
@@ -101,14 +105,6 @@ Caso queira rodar o portfólio no seu ambiente local, siga os passos abaixo:
 
 ---
 
-## 🌍 Deploy
-
-O projeto está hospedado na **Vercel** para facilitar o acesso e garantir alta performance. O deploy é feito automaticamente a partir do repositório do GitHub, garantindo que toda atualização no código seja refletida no site publicado.
-
-🔗 **[Visualizar Portfólio](https://seu-portfolio.vercel.app/)**
-
----
-
 ## 📌 Melhorias Futuras
 
 - Adicionar modo escuro (dark mode);
@@ -119,10 +115,8 @@ O projeto está hospedado na **Vercel** para facilitar o acesso e garantir alta 
 
 Se quiser falar comigo, entre em contato pelos canais abaixo:
 
-- **LinkedIn:** [linkedin.com/in/seu-perfil](https://www.linkedin.com/in/pedrosteinmuller)
-- **GitHub:** [github.com/seu-usuario](https://github.com/pedrosteinmuller)
+- **LinkedIn:** [linkedin.com/in/pedrosteinmuller](https://www.linkedin.com/in/pedrosteinmuller)
+- **GitHub:** [github.com/pedrosteinmuller](https://github.com/pedrosteinmuller)
 - **E-mail:** pedrosteinmuller10105@hotmail.com
 
 ---
-
-Se gostou do projeto, ⭐ deixe um star no repositório! 😊
